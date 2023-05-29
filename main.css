@@ -1,4 +1,62 @@
+:root {
+    --background-color: #6f83a5;
+    --text-color: #343434;
+    --shadow-color: #222222;
+}
+
 body {
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 18px;
+    margin: 0;
+
+    background: url(/images/main-banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: var(--background-color);
+    background-blend-mode: overlay;
+}
+
+nav {
+    display: flex;
+    background: #fff7;
+    padding: 1em 2em;
+    backdrop-filter: blur(0.2em);
+    font-size: 1.2em;
+    box-shadow: 0 0 0.1em var(--shadow-color);
+}
+
+nav section {
+    margin-left: auto;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 0.2em 1em;
+    color: var(--text-color);
+}
+
+a.button {
+    border: 1px solid #cdcdcd;
+    border-radius: 0.4em;
+    background-color: #f2f2f2;
+}
+
+section.banner {
+    font-size: 3em;
+    padding: 2em 1em;
+    text-align: center;
+    text-shadow: 0 0 0.6em #000;
+    color: #fff;
+}
+
+@media (max-width: 1000px) {
+    body {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 500px) {
+    body {
+        font-size: 10px;
+    }
 }
