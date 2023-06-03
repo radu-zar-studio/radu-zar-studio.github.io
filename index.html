@@ -3,7 +3,6 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <meta name="description"
@@ -30,94 +29,108 @@
   <link rel="stylesheet" href="main.css">
   <link rel="icon" href="/images/logo.svg">
   <link rel="canonical" href="https://zar.studio" />
+
+  <script type="module" src="index.js"></script>
 </head>
 
 <body>
-  <div class="background">
-    <nav>
-      <a href="/">zar.studio</a>
+  <main>
+    <div class="background">
+      <nav>
+        <a href="/">zar.studio</a>
 
-      <section class="desktop">
-        <a href="/">About us</a>
-        <a href="/">Services</a>
-        <a href="/">Our blogs</a>
-        <a href="/">Contact us</a>
-      </section>
-      <section class="mobile">
-        <button type="button" class="button">≡</button>
-      </section>
-    </nav>
+        <section class="desktop">
+          <a href="/">About us</a>
+          <a href="/">Services</a>
+          <a href="/">Our blogs</a>
+          <a href="/">Contact us</a>
+        </section>
+        <section class="mobile">
+          <button id="mobilenav" type="button" class="button">≡</button>
+        </section>
+      </nav>
 
-    <section class="banner">
-      <h2>zar.studio</h2>
-      <div>Coming soon!</div>
+      <section class="banner">
+        <h2>zar.studio</h2>
+        <div>Coming soon!</div>
+      </section>
+    </div>
+
+    <section class="showcase">
+      <a class="card" href="/">
+        <h3>Software development</h3>
+
+        <ul>
+          <li>Web design</li>
+          <li>E-Commerce solutions</li>
+          <li>Consultancy</li>
+        </ul>
+      </a>
+      <a class="card" href="/">
+        <h3>Cybersecurity</h3>
+
+        <ul>
+          <li>Application security audit</li>
+          <li>Infrastructure security audit</li>
+          <li>Consultancy</li>
+        </ul>
+      </a>
+      <a class="card" href="/">
+        <h3>Others</h3>
+
+        <ul>
+          <li>Open-source advocacy</li>
+          <li>Privacy solutions</li>
+          <li>Home networking</li>
+        </ul>
+      </a>
     </section>
-  </div>
 
-  <section class="showcase">
-    <a class="card" href="/">
-      <h3>Software development</h3>
+    <section class="tagline">
+      <h2>We would like to help your business!</h2>
 
-      <ul>
-        <li>Web design</li>
-        <li>E-Commerce solutions</li>
-        <li>Consultancy</li>
-      </ul>
-    </a>
-    <a class="card" href="/">
-      <h3>Cybersecurity</h3>
+      <div>✍🏻 If you would like to accelerate your business - let's talk.</div>
+      <div>🛡️ If you need digital security services - count on us.</div>
+      <div>🔐 If you want to improve your only privacy - we know what to do.</div>
+    </section>
 
-      <ul>
-        <li>Application security audit</li>
-        <li>Infrastructure security audit</li>
-        <li>Consultancy</li>
-      </ul>
-    </a>
-    <a class="card" href="/">
-      <h3>Others</h3>
+    <section class="extra-banner">
+      <a class="button" href="/">Contact us!</a>
+    </section>
 
-      <ul>
-        <li>Open-source advocacy</li>
-        <li>Privacy solutions</li>
-        <li>Home networking</li>
-      </ul>
-    </a>
-  </section>
+    <footer>
+      <div>
+        <div class="logo-name">
+          <img class="logo" alt="logo" src="/images/logo.svg">
+          <span>ZAR Studio</span>
+        </div>
 
-  <section class="tagline">
-    <h2>We would like to help your business!</h2>
-
-    <div>✍🏻 If you would like to accelerate your business - let's talk.</div>
-    <div>🛡️ If you need digital security services - count on us.</div>
-    <div>🔐 If you want to improve your only privacy - we know what to do.</div>
-  </section>
-
-  <section class="extra-banner">
-    <a class="button" href="/">Contact us!</a>
-  </section>
-
-  <footer>
-    <div>
-      <div class="logo-name">
-        <img class="logo" alt="logo" src="/images/logo.svg">
-        <span>ZAR Studio</span>
+        <p>We are a small cybersecurity and software development shop based in Cluj-Napoca, Romania. We can help you
+          create your online business presence, replace paper driven workflows with modern digital solutions, offer
+          e-commerce solutions to your customers, or simply optimize your online customer interaction. We can guide your
+          business through the complicated mess of present day cybersecurity.</p>
       </div>
-
-      <p>We are a small cybersecurity and software development shop based in Cluj-Napoca, Romania. We can help you
-        create your online business presence, replace paper driven workflows with modern digital solutions, offer
-        e-commerce solutions to your customers, or simply optimize your online customer interaction. We can guide your
-        business through the complicated mess of present day cybersecurity.</p>
-    </div>
-    <div>
-      <ul>
-        <li><a href="/">About us</a></li>
-        <li><a href="/">Software development services</a></li>
-        <li><a href="/">Cybersecurity services</a></li>
-        <li><a href="/">Privacy services</a></li>
-        <li><a href="/">Our blogs</a></li>
-      </ul>
-    </div>
-  </footer>
+      <div>
+        <ul>
+          <li><a href="/">About us</a></li>
+          <li><a href="/">Software development services</a></li>
+          <li><a href="/">Cybersecurity services</a></li>
+          <li><a href="/">Privacy services</a></li>
+          <li><a href="/">Our blogs</a></li>
+        </ul>
+      </div>
+    </footer>
+  </main>
+  <nav>
+    <button id="closenav" type="button" class="button">X</button>
+    <ul>
+      <li><a href="#">About us</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Radu's blog</a></li>
+      <li><a href="#">Alexandra's blog</a></li>
+      <li><a href="#">Contact us</a></li>
+    </ul>
+  </nav>
 </body>
 
 </html>
