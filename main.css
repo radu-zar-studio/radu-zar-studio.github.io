@@ -3,12 +3,31 @@
     --text-color: #343434;
     --shadow-color: #222222;
     --border-color: #cdcdcd;
+    --card-accent: #e97739;
+}
+
+html {
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 18px;
     margin: 0;
+    display: grid;
+    grid-template-columns: 100% 50%;
+}
+
+body main,
+body nav {
+    scroll-snap-align: start;
+}
+
+body.mobilenav-visible main {
+    opacity: 0.2;
+    pointer-events: none;
 }
 
 div.background {
@@ -20,7 +39,11 @@ div.background {
     background-position: bottom;
 }
 
-nav {
+main {
+    transition: opacity 0.8s;
+}
+
+main nav {
     display: flex;
     align-items: center;
     background: #fff7;
@@ -30,22 +53,22 @@ nav {
     box-shadow: 0 0 0.1em var(--shadow-color);
 }
 
-nav section {
+main nav section {
     margin-left: auto;
 }
 
-nav section.mobile {
+main nav section.mobile {
     display: none;
 }
 
-nav a {
+main nav a {
     text-decoration: none;
     padding: 0.2em 1em;
     color: var(--text-color);
 }
 
 .button {
-    border: 1px solid #cdcdcd;
+    border: 1px solid var(--border-color);
     border-radius: 0.4em;
 }
 
@@ -101,7 +124,7 @@ section.extra-banner a {
 
 a.card {
     padding: 0.6em 1em;
-    border-bottom: 0.8em solid #e97739;
+    border-bottom: 0.8em solid var(--card-accent);
     color: var(--text-color);
     text-decoration: none;
 }
@@ -148,6 +171,32 @@ div.logo-name span {
     font-size: 1.6em;
 }
 
+body>nav {
+    list-style: none;
+}
+
+body>nav ul {
+    list-style: none;
+    padding: 0 2em;
+    font-size: 1.6em;
+}
+
+body>nav button {
+    margin-top: 1em;
+    margin-left: auto;
+    display: block;
+    margin-right: 1em;
+}
+
+body>nav li {
+    padding: 0.4em 0;
+}
+
+body>nav a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
 @media (min-width: 1300px) {
     section.banner {
         padding: 6em 1em;
@@ -172,11 +221,11 @@ div.logo-name span {
         list-style: none;
     }
 
-    nav section.mobile {
+    main nav section.mobile {
         display: block;
     }
 
-    nav section.desktop {
+    main nav section.desktop {
         display: none;
     }
 
@@ -185,7 +234,7 @@ div.logo-name span {
     }
 
     a.card {
-        border: 1px solid #e97739;
+        border: 1px solid var(--card-accent);
         border-radius: 0.4em;
     }
 }
