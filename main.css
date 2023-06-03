@@ -210,6 +210,10 @@ body>nav a {
 }
 
 @media (max-width: 700px) {
+    html {
+        overflow-x: scroll;
+    }
+
     section.showcase {
         grid-template-columns: 1fr;
         row-gap: 1em;
