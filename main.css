@@ -6,28 +6,10 @@
     --card-accent: #e97739;
 }
 
-html {
-    scroll-snap-type: x mandatory;
-    scroll-behavior: smooth;
-    overflow-x: hidden;
-}
-
 body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 18px;
     margin: 0;
-    display: grid;
-    grid-template-columns: 100% 50%;
-}
-
-body main,
-body nav {
-    scroll-snap-align: start;
-}
-
-body.mobilenav-visible main {
-    opacity: 0.2;
-    pointer-events: none;
 }
 
 div.background {
@@ -39,11 +21,7 @@ div.background {
     background-position: bottom;
 }
 
-main {
-    transition: opacity 0.8s;
-}
-
-main nav {
+nav {
     display: flex;
     align-items: center;
     background: #fff7;
@@ -53,15 +31,40 @@ main nav {
     box-shadow: 0 0 0.1em var(--shadow-color);
 }
 
-main nav section {
+nav section {
     margin-left: auto;
 }
 
-main nav section.mobile {
+nav section.mobile {
     display: none;
 }
 
-main nav a {
+nav section.mobile ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 1.6em;
+    opacity: 0;
+    height: 0;
+    transition: opacity 0.5s;
+}
+
+nav section.mobile li {
+    padding: 0.4em 0;
+    display: none;
+}
+
+nav section.mobile a {
+    text-decoration: none;
+    color: var(--text-color);
+    text-shadow: 0 0 1em #fff;
+}
+
+body.mobilenav-visible nav section.mobile ul {
+    display: block;
+}
+
+nav a {
     text-decoration: none;
     padding: 0.2em 1em;
     color: var(--text-color);
@@ -171,32 +174,6 @@ div.logo-name span {
     font-size: 1.6em;
 }
 
-body>nav {
-    list-style: none;
-}
-
-body>nav ul {
-    list-style: none;
-    padding: 0 2em;
-    font-size: 1.6em;
-}
-
-body>nav button {
-    margin-top: 1em;
-    margin-left: auto;
-    display: block;
-    margin-right: 1em;
-}
-
-body>nav li {
-    padding: 0.4em 0;
-}
-
-body>nav a {
-    text-decoration: none;
-    color: var(--text-color);
-}
-
 @media (min-width: 1300px) {
     section.banner {
         padding: 6em 1em;
@@ -214,6 +191,14 @@ body>nav a {
         overflow-x: scroll;
     }
 
+    div.background {
+        height: 35em;
+    }
+
+    body.mobilenav-visible section.banner {
+        display: none;
+    }
+
     section.showcase {
         grid-template-columns: 1fr;
         row-gap: 1em;
@@ -225,11 +210,30 @@ body>nav a {
         list-style: none;
     }
 
-    main nav section.mobile {
+    nav {
+        height: 3em;
+        transition: height 0.5s;
+    }
+
+    body.mobilenav-visible nav {
+        height: 24em;
+    }
+
+    nav section.mobile {
         display: block;
     }
 
-    main nav section.desktop {
+    body.mobilenav-visible nav section.mobile ul {
+        opacity: 1;
+        padding: 1em 2em;
+        height: 10em
+    }
+
+    body.mobilenav-visible nav section.mobile li {
+        display: block;
+    }
+
+    nav section.desktop {
         display: none;
     }
 
