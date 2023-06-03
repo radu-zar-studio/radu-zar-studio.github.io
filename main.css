@@ -22,6 +22,7 @@ div.background {
 
 nav {
     display: flex;
+    align-items: center;
     background: #fff7;
     padding: 1em 2em;
     backdrop-filter: blur(0.2em);
@@ -33,15 +34,26 @@ nav section {
     margin-left: auto;
 }
 
+nav section.mobile {
+    display: none;
+}
+
 nav a {
     text-decoration: none;
     padding: 0.2em 1em;
     color: var(--text-color);
 }
 
-a.button {
+.button {
     border: 1px solid #cdcdcd;
     border-radius: 0.4em;
+}
+
+button {
+    cursor: pointer;
+    padding: 0.4em 1em;
+    background-color: #fff4;
+    font-size: 1.2em;
 }
 
 section.banner {
@@ -158,6 +170,14 @@ div.logo-name span {
     section.showcase ul {
         padding: 0;
         list-style: none;
+    }
+
+    nav section.mobile {
+        display: block;
+    }
+
+    nav section.desktop {
+        display: none;
     }
 
     footer {
