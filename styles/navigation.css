@@ -52,7 +52,7 @@ nav a.logo-name span {
     margin-bottom: 0.3em;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1100px) {
     nav a.logo-name {
         padding-left: 0;
     }
@@ -62,7 +62,7 @@ nav a.logo-name span {
     }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
     nav {
         transition: height 0.5s;
     }
@@ -91,5 +91,11 @@ nav a.logo-name span {
 
     body.mobilenav-visible nav section.mobile li {
         display: block;
+    }
+}
+
+@media (max-width: 500px) {
+    nav {
+        padding: 1em;
     }
 }
