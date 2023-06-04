@@ -93,6 +93,8 @@ section.banner {
     text-align: center;
     text-shadow: 0 0 0.6em var(--shadow-color);
     color: #fff;
+    opacity: 1;
+    transition: opacity 0.5s;
 }
 
 section.showcase {
@@ -210,7 +212,7 @@ footer li a {
     }
 
     body.mobilenav-visible section.banner {
-        display: none;
+        opacity: 0;
     }
 
     section.showcase {
@@ -236,14 +238,26 @@ footer li a {
         height: 24em;
     }
 
+    a.logo-name {
+        display: none;
+    }
+
     nav section.mobile {
         display: block;
+        width: 100%;
+        margin: 0;
+        text-align: center;
+    }
+
+    nav section.mobile button {
+        display: flex;
+        margin-left: auto;
     }
 
     body.mobilenav-visible nav section.mobile ul {
         opacity: 1;
-        padding: 1em 2em;
-        height: 10em
+        height: 10em;
+        padding: 0 0 1em 0;
     }
 
     body.mobilenav-visible nav section.mobile li {
