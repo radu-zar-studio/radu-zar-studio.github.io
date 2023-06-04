@@ -57,6 +57,31 @@ section.tagline {
     padding: 3em;
 }
 
+section.about {
+    padding: 1em;
+}
+
+section.about h2 {
+    text-align: center;
+    font-weight: 100;
+}
+
+section.about ul {
+    list-style: none;
+    padding: 0;
+}
+
+section.about li {
+    margin: 1em 0;
+    display: grid;
+    grid-template-columns: 6em 1fr;
+    column-gap: 1em;
+}
+
+section.about div.about-photo {
+    background-color: var(--card-accent);
+}
+
 section.tagline h2 {
     font-weight: 100;
 }
