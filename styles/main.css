@@ -21,60 +21,6 @@ div.background {
     background-position: bottom;
 }
 
-nav {
-    display: flex;
-    align-items: center;
-    background: #fff7;
-    padding: 1em 2em;
-    backdrop-filter: blur(0.2em);
-    font-size: 1.2em;
-    box-shadow: 0 0 0.1em var(--shadow-color);
-    height: 3em;
-}
-
-nav section {
-    margin-left: auto;
-}
-
-nav section.mobile {
-    display: none;
-}
-
-nav section.mobile ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    font-size: 1.6em;
-    opacity: 0;
-    height: 0;
-    transition: opacity 0.5s;
-}
-
-nav section.mobile li {
-    padding: 0.4em 0;
-    display: none;
-}
-
-nav section.mobile a {
-    text-decoration: none;
-    color: var(--text-color);
-    text-shadow: 0 0 1em #fff;
-}
-
-body.mobilenav-visible nav section.mobile ul {
-    display: block;
-}
-
-nav a {
-    text-decoration: none;
-    padding: 0.2em 1em;
-    color: var(--text-color);
-}
-
-nav a.logo-name span {
-    margin-bottom: 0.3em;
-}
-
 .button {
     border: 1px solid var(--border-color);
     border-radius: 0.4em;
@@ -143,30 +89,6 @@ a.card h3 {
     text-align: center;
 }
 
-footer {
-    display: grid;
-    padding: 1em;
-    grid-template-columns: 1fr 1fr;
-    background-color: var(--background-color);
-    color: #fff;
-    font-weight: 100;
-    column-gap: 3em;
-}
-
-footer ul {
-    list-style: circle;
-    padding-top: 2.4em;
-}
-
-footer li {
-    margin: 0.6em 0;
-}
-
-footer li a {
-    color: #fff;
-    text-decoration: none;
-}
-
 .logo-name {
     display: grid;
     column-gap: 0.4em;
@@ -191,14 +113,6 @@ footer li a {
 @media (max-width: 1000px) {
     body {
         font-size: 16px;
-    }
-
-    nav a.logo-name {
-        padding-left: 0;
-    }
-
-    nav a.logo-name span {
-        display: none;
     }
 }
 
@@ -230,46 +144,12 @@ footer li a {
         padding-top: 0;
     }
 
-    nav {
-        transition: height 0.5s;
-    }
-
     body.mobilenav-visible nav {
         height: 24em;
     }
 
     a.logo-name {
         display: none;
-    }
-
-    nav section.mobile {
-        display: block;
-        width: 100%;
-        margin: 0;
-        text-align: center;
-    }
-
-    nav section.mobile button {
-        display: flex;
-        margin-left: auto;
-    }
-
-    body.mobilenav-visible nav section.mobile ul {
-        opacity: 1;
-        height: 10em;
-        padding: 0 0 1em 0;
-    }
-
-    body.mobilenav-visible nav section.mobile li {
-        display: block;
-    }
-
-    nav section.desktop {
-        display: none;
-    }
-
-    footer {
-        grid-template-columns: 1fr;
     }
 
     a.card {
