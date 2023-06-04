@@ -95,6 +95,8 @@ nav a.logo-name span {
     nav section.mobile button {
         display: flex;
         margin-left: auto;
+        z-index: 3;
+        position: relative;
     }
 }
 
