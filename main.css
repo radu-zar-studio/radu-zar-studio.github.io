@@ -29,6 +29,7 @@ nav {
     backdrop-filter: blur(0.2em);
     font-size: 1.2em;
     box-shadow: 0 0 0.1em var(--shadow-color);
+    height: 3em;
 }
 
 nav section {
@@ -68,6 +69,10 @@ nav a {
     text-decoration: none;
     padding: 0.2em 1em;
     color: var(--text-color);
+}
+
+nav a.logo-name span {
+    margin-bottom: 0.3em;
 }
 
 .button {
@@ -143,6 +148,7 @@ footer {
     background-color: var(--background-color);
     color: #fff;
     font-weight: 100;
+    column-gap: 3em;
 }
 
 footer ul {
@@ -159,18 +165,18 @@ footer li a {
     text-decoration: none;
 }
 
-div.logo-name {
+.logo-name {
     display: grid;
     column-gap: 0.4em;
     grid-template-columns: 3em 1fr;
     align-items: center;
 }
 
-div.logo-name .logo {
+.logo-name .logo {
     width: 100%;
 }
 
-div.logo-name span {
+.logo-name span {
     font-size: 1.6em;
 }
 
@@ -182,7 +188,15 @@ div.logo-name span {
 
 @media (max-width: 1000px) {
     body {
-        font-size: 12px;
+        font-size: 16px;
+    }
+
+    nav a.logo-name {
+        padding-left: 0;
+    }
+
+    nav a.logo-name span {
+        display: none;
     }
 }
 
@@ -210,8 +224,11 @@ div.logo-name span {
         list-style: none;
     }
 
+    section.tagline {
+        padding-top: 0;
+    }
+
     nav {
-        height: 3em;
         transition: height 0.5s;
     }
 
@@ -249,6 +266,6 @@ div.logo-name span {
 
 @media (max-width: 500px) {
     body {
-        font-size: 10px;
+        font-size: 14px;
     }
 }
