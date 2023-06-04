@@ -8,6 +8,11 @@ footer {
     column-gap: 3em;
 }
 
+footer div.links {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
 footer ul {
     list-style: circle;
     padding-top: 2.4em;
@@ -22,8 +27,28 @@ footer li a {
     text-decoration: none;
 }
 
+footer span.copyright {
+    text-align: center;
+    margin-top: 1em;
+}
+
 @media (max-width: 800px) {
     footer {
+        grid-template-columns: 1fr;
+    }
+
+    footer ul {
+        padding-top: 0;
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 500px) {
+    footer ul {
+        margin-bottom: 0;
+    }
+
+    footer div.links {
         grid-template-columns: 1fr;
     }
 }
