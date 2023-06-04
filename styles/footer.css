@@ -1,0 +1,29 @@
+footer {
+    display: grid;
+    padding: 1em;
+    grid-template-columns: 1fr 1fr;
+    background-color: var(--background-color);
+    color: #fff;
+    font-weight: 100;
+    column-gap: 3em;
+}
+
+footer ul {
+    list-style: circle;
+    padding-top: 2.4em;
+}
+
+footer li {
+    margin: 0.6em 0;
+}
+
+footer li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+@media (max-width: 700px) {
+    footer {
+        grid-template-columns: 1fr;
+    }
+}
