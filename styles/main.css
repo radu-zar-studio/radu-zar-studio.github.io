@@ -44,11 +44,14 @@ section.banner {
 }
 
 section.showcase {
+    padding: 3em 1em;
+    background-color: #fff;
+}
+
+section.showcase div {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 2em;
-    padding: 3em 1em;
-    background-color: #fff;
 }
 
 section.tagline {
@@ -59,11 +62,6 @@ section.tagline {
 
 section.about {
     padding: 1em;
-}
-
-section.about h2 {
-    text-align: center;
-    font-weight: 100;
 }
 
 section.about ul {
@@ -82,12 +80,8 @@ section.about div.about-photo {
     background-color: var(--card-accent);
 }
 
-section.tagline h2 {
-    font-weight: 100;
-}
-
-section.tagline div {
-    font-weight: 100;
+section h2 {
+    text-align: center;
 }
 
 section.extra-banner {
@@ -154,7 +148,7 @@ a.card h3 {
         opacity: 0;
     }
 
-    section.showcase {
+    section.showcase div {
         grid-template-columns: 1fr;
         row-gap: 1em;
         text-align: center;
@@ -167,6 +161,10 @@ a.card h3 {
 
     section.tagline {
         padding-top: 0;
+    }
+
+    section.about li {
+        grid-template-columns: 1em 1fr;
     }
 
     body.mobilenav-visible nav {

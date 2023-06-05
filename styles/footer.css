@@ -28,13 +28,15 @@ footer li a {
 }
 
 footer span.copyright {
+    display: grid;
     text-align: center;
-    margin-top: 1em;
+    margin-top: 3em;
+    grid-column-end: span 2;
 }
 
 @media (max-width: 800px) {
     footer {
-        grid-template-columns: 1fr;
+        display: block;
     }
 
     footer ul {
