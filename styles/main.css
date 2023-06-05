@@ -74,10 +74,20 @@ section.about li {
     display: grid;
     grid-template-columns: 6em 1fr;
     column-gap: 1em;
+    align-items: start;
 }
 
 section.about div.about-photo {
-    background-color: var(--card-accent);
+    width: 6em;
+    height: 6em;
+
+    background: var(--card-accent);
+    background: linear-gradient(120deg, #5cbcb0 10%, var(--card-accent) 10%, var(--card-accent) 27%, #5cbcb0 27%, #5cbcb0 50%, #5cbcb0 50%, #5cbcb0 74.81%, var(--card-accent) 73.81%, var(--card-accent) 76.19%, #5cbcb0 76.19%, #5cbcb0 100%);
+    background-size: 593.97px 593.97px;
+}
+
+section.about a {
+    color: var(--text-color);
 }
 
 section h2 {
