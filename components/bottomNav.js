@@ -14,7 +14,7 @@ export class BottomNav extends HTMLElement {
         </div>
         <div class="links">
             <ul>
-                <li><a href="/#about">About us</a></li>
+                <li><a href="/">About us</a></li>
                 <li><a href="/services.html">Software development services</a></li>
                 <li><a href="/services.html">Cybersecurity services</a></li>
                 <li><a href="/services.html">Privacy services</a></li>
