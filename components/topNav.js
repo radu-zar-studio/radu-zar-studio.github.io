@@ -9,15 +9,14 @@ export class TopNav extends HTMLElement {
         <section class="desktop">
             <a href="/#about">About us</a>
             <a href="/services.html">Services</a>
-            <a href="/">Our blogs</a>
+            <a target="_blank" href="https://raduzaharia.medium.com/">Our blog</a>
             <a href="mailto:contact@zar.studio">Contact us</a>
         </section>
         <section class="mobile">
             <ul>
             <li><a href="/#about">About us</a></li>
             <li><a href="/services.html">Services</a></li>
-            <li><a href="/">Radu's blog</a></li>
-            <li><a href="/">Alexandra's blog</a></li>
+            <li><a target="_blank" ref="https://raduzaharia.medium.com/">Our blog</a></li>
             <li><a href="mailto:contact@zar.studio">Contact us</a></li>
             </ul>
 

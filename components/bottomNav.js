@@ -18,7 +18,7 @@ export class BottomNav extends HTMLElement {
                 <li><a href="/services.html">Software development services</a></li>
                 <li><a href="/services.html">Cybersecurity services</a></li>
                 <li><a href="/services.html">Privacy services</a></li>
-                <li><a href="/">Our blogs</a></li>
+                <li><a target="_blank" href="https://raduzaharia.medium.com/">Our blog</a></li>
             </ul>
             <ul>
                 <li><a href="/">Terms and conditions</a></li>
