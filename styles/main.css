@@ -68,6 +68,9 @@ section.tagline {
 
 section.about {
     padding: 1em;
+
+    padding-top: 6em;
+    margin-top: -6em;
 }
 
 section.about ul {
@@ -94,6 +97,10 @@ section.about li img {
 
 section.about a {
     color: var(--text-color);
+}
+
+section.services {
+    padding: 2em;
 }
 
 section h2 {
@@ -176,10 +183,6 @@ a.card h3 {
 
     section.tagline {
         padding-top: 0;
-    }
-
-    body.mobilenav-visible nav {
-        height: 24em;
     }
 
     a.logo-name {
