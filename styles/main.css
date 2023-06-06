@@ -48,6 +48,12 @@ section.showcase {
     background-color: #fff;
 }
 
+section.showcase ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
 section.showcase div {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -70,11 +76,15 @@ section.about ul {
 }
 
 section.about li {
-    margin: 1em 0;
+    margin-top: 3em;
     display: grid;
     grid-template-columns: 1fr;
     column-gap: 1em;
     align-items: start;
+}
+
+section.about li:first-child {
+    margin-top: 0;
 }
 
 section.about li img {
@@ -131,7 +141,7 @@ a.card h3 {
 
 @media (min-width: 1300px) {
     section.banner {
-        padding: 6em 1em;
+        padding: 4em 1em;
     }
 }
 
@@ -162,11 +172,6 @@ a.card h3 {
 
     section.about li {
         grid-template-columns: 1.6em 1fr;
-    }
-
-    section.showcase ul {
-        padding: 0;
-        list-style: none;
     }
 
     section.tagline {
