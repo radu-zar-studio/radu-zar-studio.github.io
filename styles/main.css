@@ -39,9 +39,12 @@ main {
     margin-right: auto;
 }
 
+section {
+    padding: 2em 1em;
+}
+
 section.banner {
     font-size: 3em;
-    padding: 2em 1em;
     text-align: center;
     text-shadow: 0 0 0.6em var(--shadow-color);
     color: #fff;
@@ -50,7 +53,6 @@ section.banner {
 }
 
 section.showcase {
-    padding: 3em 1em;
     background-color: #fff;
 }
 
@@ -69,19 +71,12 @@ section.showcase div {
 section.tagline {
     text-align: center;
     background-color: #fff;
-    padding: 3em;
-}
-
-section.about {
-    padding: 1em;
-
-    padding-top: 6em;
-    margin-top: -6em;
 }
 
 section.about ul {
     list-style: none;
     padding: 0;
+    margin: 0;
 }
 
 section.about li {
@@ -127,7 +122,6 @@ section.extra-banner a {
 }
 
 a.card {
-    padding: 0.6em 1em;
     border-bottom: 0.8em solid var(--card-accent);
     color: var(--text-color);
     text-decoration: none;
@@ -135,6 +129,7 @@ a.card {
 
 a.card h3 {
     text-align: center;
+    font-weight: 500;
 }
 
 .logo-name {
