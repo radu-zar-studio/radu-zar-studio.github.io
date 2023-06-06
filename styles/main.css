@@ -78,7 +78,8 @@ section.about li {
 }
 
 section.about li img {
-    width: 2em;
+    width: 1.6em;
+    margin-right: 0.4em;
 }
 
 section.about a {
@@ -160,7 +161,7 @@ a.card h3 {
     }
 
     section.about li {
-        grid-template-columns: 2em 1fr;
+        grid-template-columns: 1.6em 1fr;
     }
 
     section.showcase ul {
