@@ -132,6 +132,21 @@ a.card h3 {
     font-weight: 500;
 }
 
+div.service-item {
+    display: grid;
+    grid-template-columns: 14em 1fr;
+    column-gap: 2em;
+    margin-bottom: 2em;
+}
+
+div.service-item img {
+    width: 100%;
+}
+
+div.service-item p {
+    margin-top: 0;
+}
+
 .logo-name {
     display: grid;
     column-gap: 0.4em;

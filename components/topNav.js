@@ -13,7 +13,7 @@ export class TopNav extends HTMLElement {
         </section>
         <section class="mobile">
             <ul>
-            <li><a href="/">About us</a></li>
+            <li><a href="/">Home</a></li>
             <li><a href="/services.html">Services</a></li>
             <li><a target="_blank" ref="https://raduzaharia.medium.com/">Our blog</a></li>
             <li><a href="mailto:contact@zar.studio">Contact us</a></li>
