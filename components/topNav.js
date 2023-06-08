@@ -19,7 +19,7 @@ export class TopNav extends HTMLElement {
             <li><a href="/contact.html">Contact us</a></li>
             </ul>
 
-            <button id="mobilenav" type="button" class="button">≡</button>
+            <button id="mobilenav" type="button">≡</button>
         </section>`;
 
     this.querySelector("#mobilenav").addEventListener("click", () => {

@@ -1,0 +1,35 @@
+services-section {
+    background-color: #fff;
+    padding: 2em 1em;
+    display: block;
+}
+
+services-section h2 {
+    text-align: center;
+}
+
+services-section div.service-item {
+    display: grid;
+    grid-template-columns: 14em 1fr;
+    column-gap: 2em;
+    margin-bottom: 2em;
+}
+
+services-section div.service-item img {
+    width: 100%;
+}
+
+services-section div.service-item p {
+    margin-top: 0;
+}
+
+@media (max-width: 800px) {
+    services-section div.service-item {
+        grid-template-columns: 1fr;
+        margin-bottom: 4em;
+    }
+
+    services-section div.service-item img {
+        margin-bottom: 2em;
+    }
+}

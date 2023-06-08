@@ -1,0 +1,46 @@
+showcase-section {
+    background-color: #fff;
+    padding: 2em 1em;
+    display: block;
+}
+
+showcase-section h2 {
+    text-align: center;
+}
+
+showcase-section ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+showcase-section div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 2em;
+}
+
+showcase-section a {
+    border-bottom: 0.8em solid var(--card-accent);
+    color: var(--text-color);
+    text-decoration: none;
+    padding: 0 1em;
+}
+
+showcase-section a h3 {
+    text-align: center;
+    font-weight: 500;
+}
+
+@media (max-width: 800px) {
+    showcase-section div {
+        grid-template-columns: 1fr;
+        row-gap: 1em;
+        text-align: center;
+    }
+
+    showcase-section a {
+        border: 1px solid var(--card-accent);
+        border-radius: 0.4em;
+    }
+}

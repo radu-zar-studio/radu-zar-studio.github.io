@@ -28,16 +28,19 @@
 
     <link rel="stylesheet" href="/styles/main.css">
 
-    <link rel="stylesheet" href="/components/bottomNav.css">
     <link rel="stylesheet" href="/components/topNav.css">
+    <link rel="stylesheet" href="/components/bannerSection.css">
+    <link rel="stylesheet" href="/components/bottomNav.css">
     <link rel="stylesheet" href="/components/contactForm.css">
+    <link rel="stylesheet" href="/components/contactSection.css">
 
     <link rel="icon" href="/images/logo.svg">
     <link rel="canonical" href="https://zar.studio/services.html" />
 
     <script type="module" src="/components/topNav.js"></script>
+    <script type="module" src="/components/bannerSection.js"></script>
     <script type="module" src="/components/bottomNav.js"></script>
-    <script type="module" src="/components/contactForm.js"></script>
+    <script type="module" src="/components/contactSection.js"></script>
 
     <script type="module" src="/scripts/smartlook.js"></script>
 </head>
@@ -45,20 +48,11 @@
 <body>
     <div class="background">
         <top-nav></top-nav>
-
-        <section class="banner">
-            <h2>zar.studio</h2>
-            <div>Coming soon!</div>
-        </section>
+        <banner-section></banner-section>
     </div>
 
     <main>
-        <section class="contact">
-            <h2>Let's talk</h2>
-
-            <contact-form></contact-form>
-            <p><span>Or write us at <a href="mailto:contact@zar.studio">contact@zar.studio</a>.</span></p>
-        </section>
+        <contact-section></contact-section>
     </main>
 
     <bottom-nav></bottom-nav>
