@@ -9,14 +9,14 @@ export class TopNav extends HTMLElement {
         <section class="desktop">
             <a href="/services.html">Services</a>
             <a target="_blank" href="https://raduzaharia.medium.com/">Our blog</a>
-            <a href="mailto:contact@zar.studio">Contact us</a>
+            <a href="/contact.html">Contact us</a>
         </section>
         <section class="mobile">
             <ul>
             <li><a href="/">Home</a></li>
             <li><a href="/services.html">Services</a></li>
             <li><a target="_blank" href="https://raduzaharia.medium.com/">Our blog</a></li>
-            <li><a href="mailto:contact@zar.studio">Contact us</a></li>
+            <li><a href="/contact.html">Contact us</a></li>
             </ul>
 
             <button id="mobilenav" type="button" class="button">≡</button>

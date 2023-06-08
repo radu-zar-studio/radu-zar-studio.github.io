@@ -96,11 +96,16 @@ section.about li img {
     margin-right: 0.4em;
 }
 
-section.about a {
+section a {
     color: var(--text-color);
+    text-decoration: none;
 }
 
 section.services {
+    padding: 2em;
+}
+
+section.contact {
     padding: 2em;
 }
 

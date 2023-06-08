@@ -11,6 +11,7 @@ export class BottomNav extends HTMLElement {
                 create your online business presence, replace paper driven workflows with modern digital solutions, offer
                 e-commerce solutions to your customers, or simply optimize your online customer interaction. We can guide your
                 business through the complicated mess of present day cybersecurity.</p>
+            <p><a href="mailto:contact@zar.studio">contact@zar.studio</a></p>
         </div>
         <div class="links">
             <ul>
