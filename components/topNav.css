@@ -80,6 +80,7 @@ top-nav a.logo-name span {
 @media (max-width: 800px) {
     top-nav {
         transition: height 0.5s;
+        padding: 0;
     }
 
     top-nav section.desktop {
