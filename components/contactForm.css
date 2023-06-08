@@ -1,0 +1,24 @@
+contact-form div {
+    margin-bottom: 2em;
+}
+
+contact-form label {
+    display: block;
+}
+
+contact-form input,
+contact-form textarea {
+    width: 50%;
+}
+
+contact-form textarea {
+    height: 10em;
+}
+
+@media (max-width: 800px) {
+
+    contact-form input,
+    contact-form textarea {
+        width: 100%;
+    }
+}
