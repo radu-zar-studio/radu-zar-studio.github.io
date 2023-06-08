@@ -125,6 +125,7 @@ a.card {
     border-bottom: 0.8em solid var(--card-accent);
     color: var(--text-color);
     text-decoration: none;
+    padding: 0 1em;
 }
 
 a.card h3 {
@@ -191,6 +192,15 @@ div.service-item p {
         grid-template-columns: 1fr;
         row-gap: 1em;
         text-align: center;
+    }
+
+    section.services div {
+        grid-template-columns: 1fr;
+        margin-bottom: 4em;
+    }
+
+    section.services img {
+        margin-bottom: 2em;
     }
 
     section.about li {
