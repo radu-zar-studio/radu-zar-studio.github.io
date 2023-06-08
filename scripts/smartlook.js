@@ -1,4 +1,4 @@
-export const initializeSmartlook = async () => {
+const initializeSmartlook = async () => {
   if (window.smartlook) return;
 
   window.smartlook = (e) => {
@@ -43,3 +43,5 @@ export const initializeSmartlook = async () => {
     console.error("Failed to load Smartlook script:", error);
   }
 };
+
+await initializeSmartlook();
