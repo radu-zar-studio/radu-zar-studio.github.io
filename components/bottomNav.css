@@ -27,6 +27,21 @@ bottom-nav a {
     text-decoration: none;
 }
 
+bottom-nav .logo-name {
+    display: grid;
+    column-gap: 0.4em;
+    grid-template-columns: 3em 1fr;
+    align-items: center;
+}
+
+bottom-nav .logo-name .logo {
+    width: 100%;
+}
+
+bottom-nav .logo-name span {
+    font-size: 1.6em;
+}
+
 bottom-nav span.copyright {
     display: grid;
     text-align: center;

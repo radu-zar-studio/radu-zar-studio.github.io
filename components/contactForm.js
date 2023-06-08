@@ -17,7 +17,7 @@ export class ContactForm extends HTMLElement {
           <textarea id="message" type="text" name="message"></textarea>
         </div>
 
-        <button id="submit" type="button" class="button">Send</button>
+        <button id="submit" type="button">Send</button>
       </form>`;
 
     this.querySelector("#submit").addEventListener("click", async () => {

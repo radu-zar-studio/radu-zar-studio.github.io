@@ -15,6 +15,15 @@ contact-form textarea {
     height: 10em;
 }
 
+contact-form button {
+    border: 1px solid var(--border-color);
+    border-radius: 0.4em;
+    cursor: pointer;
+    padding: 0.4em 1em;
+    background-color: #fff4;
+    font-size: 1.2em;
+}
+
 @media (max-width: 800px) {
 
     contact-form input,

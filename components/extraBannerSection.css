@@ -1,0 +1,22 @@
+extra-banner-section {
+    background-color: #fff;
+    padding: 2em 1em;
+    display: block;
+
+    background-color: var(--background-color);
+    padding: 4em;
+    text-align: center;
+}
+
+extra-banner-section h2 {
+    text-align: center;
+}
+
+extra-banner-section a {
+    color: #fff;
+    font-size: 2em;
+    text-decoration: none;
+    padding: 0.4em 1em;
+    border: 1px solid var(--border-color);
+    border-radius: 0.4em;
+}
