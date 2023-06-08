@@ -3,6 +3,7 @@ top-nav {
     align-items: center;
     background: #fff7;
     padding: 1em 2em;
+    -webkit-backdrop-filter: blur(0.2em);
     backdrop-filter: blur(0.2em);
     font-size: 1.2em;
     box-shadow: 0 0 0.1em var(--shadow-color);
