@@ -7,6 +7,7 @@ export class TopNav extends HTMLElement {
         </a>
 
         <section class="desktop">
+            <a href="/">Home</a>
             <a href="/services.html">Services</a>
             <a target="_blank" href="https://raduzaharia.medium.com/">Our blog</a>
             <a href="/contact.html">Contact us</a>
