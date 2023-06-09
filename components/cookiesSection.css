@@ -7,3 +7,7 @@ cookies-section {
 cookies-section h2 {
     text-align: center;
 }
+
+cookies-section a {
+    color: var(--text-color);
+}
