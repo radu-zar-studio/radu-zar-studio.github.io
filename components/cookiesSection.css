@@ -13,10 +13,22 @@ cookies-section a {
 }
 
 cookies-section table {
-    border: 1px solid var(--border-color);
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid var(--border-color)
+}
+
+cookies-section table th,
+cookies-section table td {
+    padding: 0.4em;
+}
+
+cookies-section table thead {
     background-color: var(--background-color);
     color: #fff;
-    padding: 1em;
-    border-radius: 1em;
-    width: 100%;
+}
+
+cookies-section table tbody tr:nth-child(even) {
+    background-color: var(--even-row-color);
 }
