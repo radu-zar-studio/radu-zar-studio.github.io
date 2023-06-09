@@ -137,7 +137,7 @@ export class PrivacySection extends HTMLElement {
                     <h3>Contact Us</h3>
                     <p>If you have any questions or concerns about this Privacy Policy or our privacy practices, or if you
                         wish to exercise your rights under the GDPR, please contact us at [email address]. You may also send
-                        us a written inquiry using the following address: privacy@zar.studio.</p>
+                        us a written inquiry using the following address: <a href="mailto:privacy@zar.studio">privacy@zar.studio</a>.</p>
                     <p>We will respond to your inquiries and requests within a reasonable timeframe and in accordance with
                         applicable data protection laws.</p>
                 </li>

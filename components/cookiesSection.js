@@ -89,7 +89,7 @@ export class CookiesSection extends HTMLElement {
             <li>
                 <h3>Contact Us</h3>
                 <p>If you have any questions or concerns about this Cookie Policy, please contact us at
-                    privacy@zar.studio.</p>
+                    <a href="mailto:privacy@zar.studio">privacy@zar.studio</a>.</p>
             </li>
         </ol>`;
   }
