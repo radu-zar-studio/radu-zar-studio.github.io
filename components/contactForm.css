@@ -1,5 +1,5 @@
 contact-form div {
-    margin-bottom: 2em;
+    margin-bottom: 1em;
 }
 
 contact-form label {
@@ -9,6 +9,10 @@ contact-form label {
 contact-form input,
 contact-form textarea {
     width: 50%;
+    border: 1px solid var(--border-color);
+    border-radius: 0.4em;
+    font-size: 0.8em;
+    padding: 0.4em;
 }
 
 contact-form textarea {
@@ -20,8 +24,13 @@ contact-form button {
     border-radius: 0.4em;
     cursor: pointer;
     padding: 0.4em 1em;
-    background-color: #fff4;
     font-size: 1.2em;
+}
+
+contact-form span.error {
+    display: block;
+    color: var(--error-color);
+    font-size: 0.8em;
 }
 
 @media (max-width: 800px) {
