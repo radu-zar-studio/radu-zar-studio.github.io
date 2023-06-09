@@ -1,0 +1,9 @@
+privacy-section {
+    background-color: #fff;
+    padding: 2em 1em;
+    display: block;
+}
+
+privacy-section h2 {
+    text-align: center;
+}
