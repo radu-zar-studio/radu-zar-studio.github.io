@@ -1,6 +1,6 @@
 cookies-section {
     background-color: #fff;
-    padding: 2em 1em;
+    padding: 6em 1em 2em 1em;
     display: block;
 }
 
@@ -10,4 +10,13 @@ cookies-section h2 {
 
 cookies-section a {
     color: var(--text-color);
+}
+
+cookies-section table {
+    border: 1px solid var(--border-color);
+    background-color: var(--background-color);
+    color: #fff;
+    padding: 1em;
+    border-radius: 1em;
+    width: 100%;
 }
