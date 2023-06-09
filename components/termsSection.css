@@ -1,0 +1,13 @@
+terms-section {
+    background-color: #fff;
+    padding: 2em 1em;
+    display: block;
+}
+
+terms-section h2 {
+    text-align: center;
+}
+
+terms-section a {
+    color: var(--text-color);
+}

@@ -22,7 +22,7 @@ export class BottomNav extends HTMLElement {
                 <li><a target="_blank" href="https://raduzaharia.medium.com/">Our blog</a></li>
             </ul>
             <ul>
-                <li><a href="/">Terms and conditions</a></li>
+                <li><a href="/terms.html">Terms and conditions</a></li>
                 <li><a href="/privacy.html">Privacy policy</a></li>
                 <li><a href="/cookies.html">Cookies policy</a></li>
                 <li><a href="/">Processing of personal data</a></li>
