@@ -8,6 +8,10 @@ cookies-section h2 {
     text-align: center;
 }
 
+cookies-section .mobile {
+    display: none;
+}
+
 cookies-section a {
     color: var(--text-color);
 }
