@@ -62,11 +62,10 @@ top-nav section.mobile button {
     margin-left: auto;
     z-index: 3;
     position: relative;
-    border: 1px solid var(--border-color);
-    border-radius: 0.4em;
+    border: none;
     cursor: pointer;
     padding: 0.4em 1em;
-    background-color: #fff4;
+    background: transparent;
     font-size: 1.2em;
 }
 
