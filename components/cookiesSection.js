@@ -50,124 +50,124 @@ export class CookiesSection extends HTMLElement {
                     </thead>
                     <tbody>
                         <tr>
-                            <td>lastSourceReferer</td>
-                            <td>[Purpose of the cookie]</td>
-                            <td>1 month</td>
-                            <td>Analytical</td>
+                            <td><span class="mobile">Name: </span>lastSourceReferer</td>
+                            <td><span class="mobile">Purpose: </span>[Purpose of the cookie]</td>
+                            <td><span class="mobile">Duration: </span>1 month</td>
+                            <td><span class="mobile">Type: </span>Analytical</td>
                         </tr>
                         <tr>
-                            <td>lastGclid</td>
-                            <td>[Purpose of the cookie]</td>
-                            <td>1 month</td>
-                            <td>Analytical</td>
+                            <td><span class="mobile">Name: </span>lastGclid</td>
+                            <td><span class="mobile">Purpose: </span>[Purpose of the cookie]</td>
+                            <td><span class="mobile">Duration: </span>1 month</td>
+                            <td><span class="mobile">Type: </span>Analytical</td>
                         </tr>
                         <tr>
-                            <td>lastSourceMedium</td>
-                            <td>[Purpose of the cookie]</td>
-                            <td>1 month</td>
-                            <td>Analytical</td>
+                            <td><span class="mobile">Name: </span>lastSourceMedium</td>
+                            <td><span class="mobile">Purpose: </span>[Purpose of the cookie]</td>
+                            <td><span class="mobile">Duration: </span>1 month</td>
+                            <td><span class="mobile">Type: </span>Analytical</td>
                         </tr>
                         <tr>
-                            <td>lastSourceTerm</td>
-                            <td>[Purpose of the cookie]</td>
-                            <td>1 month</td>
-                            <td>Analytical</td>
+                            <td><span class="mobile">Name: </span>lastSourceTerm</td>
+                            <td><span class="mobile">Purpose: </span>[Purpose of the cookie]</td>
+                            <td><span class="mobile">Duration: </span>1 month</td>
+                            <td><span class="mobile">Type: </span>Analytical</td>
                         </tr>
                         <tr>
-                            <td>gclid</td>
-                            <td>[Purpose of the cookie]</td>
-                            <td>1 month</td>
-                            <td>Analytical</td>
+                            <td><span class="mobile">Name: </span>gclid</td>
+                            <td><span class="mobile">Purpose: </span>[Purpose of the cookie]</td>
+                            <td><span class="mobile">Duration: </span>1 month</td>
+                            <td><span class="mobile">Type: </span>Analytical</td>
                         </tr>
                         <tr>
-                            <td>sourceContent</td>
-                            <td>[Purpose of the cookie]</td>
-                            <td>1 month</td>
-                            <td>Analytical</td>
+                            <td><span class="mobile">Name: </span>sourceContent</td>
+                            <td><span class="mobile">Purpose: </span>[Purpose of the cookie]</td>
+                            <td><span class="mobile">Duration: </span>1 month</td>
+                            <td><span class="mobile">Type: </span>Analytical</td>
                         </tr>
                         <tr>
-                            <td>sourceTerm</td>
-                            <td>[Purpose of the cookie]</td>
-                            <td>1 month</td>
-                            <td>Analytical</td>
+                            <td><span class="mobile">Name: </span>sourceTerm</td>
+                            <td><span class="mobile">Purpose: </span>[Purpose of the cookie]</td>
+                            <td><span class="mobile">Duration: </span>1 month</td>
+                            <td><span class="mobile">Type: </span>Analytical</td>
                         </tr>
                         <tr>
-                            <td>lastSourceAdGroup</td>
-                            <td>[Purpose of the cookie]</td>
-                            <td>1 month</td>
-                            <td>Analytical</td>
+                            <td><span class="mobile">Name: </span>lastSourceAdGroup</td>
+                            <td><span class="mobile">Purpose: </span>[Purpose of the cookie]</td>
+                            <td><span class="mobile">Duration: </span>1 month</td>
+                            <td><span class="mobile">Type: </span>Analytical</td>
                         </tr>
                         <tr>
-                            <td>fbclid</td>
-                            <td>[Purpose of the cookie]</td>
-                            <td>1 month</td>
-                            <td>Analytical</td>
+                            <td><span class="mobile">Name: </span>fbclid</td>
+                            <td><span class="mobile">Purpose: </span>[Purpose of the cookie]</td>
+                            <td><span class="mobile">Duration: </span>1 month</td>
+                            <td><span class="mobile">Type: </span>Analytical</td>
                         </tr>
                         <tr>
-                            <td>lastSourceSource</td>
-                            <td>[Purpose of the cookie]</td>
-                            <td>1 month</td>
-                            <td>Analytical</td>
+                            <td><span class="mobile">Name: </span>lastSourceSource</td>
+                            <td><span class="mobile">Purpose: </span>[Purpose of the cookie]</td>
+                            <td><span class="mobile">Duration: </span>1 month</td>
+                            <td><span class="mobile">Type: </span>Analytical</td>
                         </tr>
                         <tr>
-                            <td>sourceCampaign</td>
-                            <td>[Purpose of the cookie]</td>
-                            <td>1 month</td>
-                            <td>Analytical</td>
+                            <td><span class="mobile">Name: </span>sourceCampaign</td>
+                            <td><span class="mobile">Purpose: </span>[Purpose of the cookie]</td>
+                            <td><span class="mobile">Duration: </span>1 month</td>
+                            <td><span class="mobile">Type: </span>Analytical</td>
                         </tr>
                         <tr>
-                            <td>lastSourceContent</td>
-                            <td>[Purpose of the cookie]</td>
-                            <td>1 month</td>
-                            <td>Analytical</td>
+                            <td><span class="mobile">Name: </span>lastSourceContent</td>
+                            <td><span class="mobile">Purpose: </span>[Purpose of the cookie]</td>
+                            <td><span class="mobile">Duration: </span>1 month</td>
+                            <td><span class="mobile">Type: </span>Analytical</td>
                         </tr>
                         <tr>
-                            <td>sourceAdGroup</td>
-                            <td>[Purpose of the cookie]</td>
-                            <td>1 month</td>
-                            <td>Analytical</td>
+                            <td><span class="mobile">Name: </span>sourceAdGroup</td>
+                            <td><span class="mobile">Purpose: </span>[Purpose of the cookie]</td>
+                            <td><span class="mobile">Duration: </span>1 month</td>
+                            <td><span class="mobile">Type: </span>Analytical</td>
                         </tr>
                         <tr>
-                            <td>sourceMedium</td>
-                            <td>[Purpose of the cookie]</td>
-                            <td>1 month</td>
-                            <td>Analytical</td>
+                            <td><span class="mobile">Name: </span>sourceMedium</td>
+                            <td><span class="mobile">Purpose: </span>[Purpose of the cookie]</td>
+                            <td><span class="mobile">Duration: </span>1 month</td>
+                            <td><span class="mobile">Type: </span>Analytical</td>
                         </tr>
                         <tr>
-                            <td>lastFbclid</td>
-                            <td>[Purpose of the cookie]</td>
-                            <td>1 month</td>
-                            <td>Analytical</td>
+                            <td><span class="mobile">Name: </span>lastFbclid</td>
+                            <td><span class="mobile">Purpose: </span>[Purpose of the cookie]</td>
+                            <td><span class="mobile">Duration: </span>1 month</td>
+                            <td><span class="mobile">Type: </span>Analytical</td>
                         </tr>
                         <tr>
-                            <td>sourceReferer</td>
-                            <td>[Purpose of the cookie]</td>
-                            <td>1 month</td>
-                            <td>Analytical</td>
+                            <td><span class="mobile">Name: </span>sourceReferer</td>
+                            <td><span class="mobile">Purpose: </span>[Purpose of the cookie]</td>
+                            <td><span class="mobile">Duration: </span>1 month</td>
+                            <td><span class="mobile">Type: </span>Analytical</td>
                         </tr>
                         <tr>
-                            <td>sourceSource</td>
-                            <td>[Purpose of the cookie]</td>
-                            <td>1 month</td>
-                            <td>Analytical</td>
+                            <td><span class="mobile">Name: </span>sourceSource</td>
+                            <td><span class="mobile">Purpose: </span>[Purpose of the cookie]</td>
+                            <td><span class="mobile">Duration: </span>1 month</td>
+                            <td><span class="mobile">Type: </span>Analytical</td>
                         </tr>
                         <tr>
-                            <td>lastSourceCampaign</td>
-                            <td>[Purpose of the cookie]</td>
-                            <td>1 month</td>
-                            <td>Analytical</td>
+                            <td><span class="mobile">Name: </span>lastSourceCampaign</td>
+                            <td><span class="mobile">Purpose: </span>[Purpose of the cookie]</td>
+                            <td><span class="mobile">Duration: </span>1 month</td>
+                            <td><span class="mobile">Type: </span>Analytical</td>
                         </tr>
                         <tr>
-                            <td>SL_C_[identifier]_SID</td>
-                            <td>[Purpose of the cookie]</td>
-                            <td>1 month</td>
-                            <td>Analytical</td>
+                            <td><span class="mobile">Name: </span>SL_C_[identifier]_SID</td>
+                            <td><span class="mobile">Purpose: </span>[Purpose of the cookie]</td>
+                            <td><span class="mobile">Duration: </span>1 month</td>
+                            <td><span class="mobile">Type: </span>Analytical</td>
                         </tr>
                         <tr>
-                            <td>SL_C_[identifier]_SID</td>
-                            <td>[Purpose of the cookie]</td>
-                            <td>1 month</td>
-                            <td>Analytical</td>
+                            <td><span class="mobile">Name: </span>SL_C_[identifier]_SID</td>
+                            <td><span class="mobile">Purpose: </span>[Purpose of the cookie]</td>
+                            <td><span class="mobile">Duration: </span>1 month</td>
+                            <td><span class="mobile">Type: </span>Analytical</td>
                         </tr>
                     </tbody>
                 </table>
