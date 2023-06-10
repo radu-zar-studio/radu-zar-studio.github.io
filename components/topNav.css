@@ -1,7 +1,7 @@
 top-nav {
     display: flex;
     align-items: center;
-    background: #fff7;
+    background: var(--transparent-background-color);
     padding: 1em 2em;
     -webkit-backdrop-filter: blur(0.2em);
     backdrop-filter: blur(0.2em);
@@ -51,12 +51,6 @@ top-nav section.mobile li {
     transition: all 0.5s;
 }
 
-top-nav section.mobile a {
-    text-decoration: none;
-    color: var(--text-color);
-    text-shadow: 0 0 1em #fff;
-}
-
 top-nav section.mobile button {
     display: flex;
     margin-left: auto;
@@ -64,15 +58,19 @@ top-nav section.mobile button {
     position: relative;
     border: none;
     cursor: pointer;
-    padding: 0.4em 1em;
     background: transparent;
-    font-size: 1.2em;
+    font-size: 1.8em;
+}
+
+top-nav section.mobile button,
+top-nav a {
+    color: #000;
+    text-shadow: 0 0 0.4em #fff;
 }
 
 top-nav a {
     text-decoration: none;
     padding: 0.2em 1em;
-    color: var(--text-color);
 }
 
 top-nav a.logo-name {
@@ -107,7 +105,6 @@ top-nav a.logo-name span {
 @media (max-width: 800px) {
     top-nav {
         transition: height 0.5s;
-        padding: 0;
     }
 
     top-nav section.desktop {
