@@ -1,6 +1,6 @@
 contact-section {
     background-color: #fff;
-    padding: 2em 1em;
+    padding: 6em 1em 2em 1em;
     display: block;
 }
 
@@ -10,4 +10,51 @@ contact-section h2 {
 
 contact-section a {
     color: var(--text-color);
+}
+
+contact-section div {
+    margin-bottom: 1em;
+}
+
+contact-section label {
+    display: block;
+}
+
+contact-section input,
+contact-section textarea {
+    width: 50%;
+    border: 1px solid var(--border-color);
+    border-radius: 0.4em;
+    font-size: 0.8em;
+    padding: 0.4em;
+}
+
+contact-section textarea {
+    height: 10em;
+}
+
+contact-section button {
+    border: 1px solid var(--border-color);
+    border-radius: 0.4em;
+    cursor: pointer;
+    padding: 0.4em 1em;
+    font-size: 1.2em;
+}
+
+contact-section span.error {
+    display: block;
+    color: var(--error-color);
+    font-size: 0.8em;
+}
+
+contact-section .hidden {
+    display: none;
+}
+
+@media (max-width: 800px) {
+
+    contact-section input,
+    contact-section textarea {
+        width: 100%;
+    }
 }
