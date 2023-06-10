@@ -27,6 +27,7 @@ contact-section textarea {
     border-radius: 0.4em;
     font-size: 0.8em;
     padding: 0.4em;
+    box-sizing: border-box;
 }
 
 contact-section textarea {
