@@ -36,3 +36,33 @@ cookies-section table thead {
 cookies-section table tbody tr:nth-child(even) {
     background-color: var(--even-row-color);
 }
+
+@media (max-width: 800px) {
+    cookies-section .mobile {
+        display: block;
+    }
+
+    cookies-section table {
+        border: none;
+    }
+
+    cookies-section table thead {
+        display: none;
+    }
+
+    cookies-section table tbody tr:nth-child(even) {
+        background-color: #fff;
+    }
+
+    cookies-section table tr {
+        display: grid;
+        border: 1px solid var(--border-color);
+        margin-bottom: 1em;
+        border-radius: 0.6em;
+    }
+
+    cookies-section table td {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
